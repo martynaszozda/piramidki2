@@ -1,0 +1,48 @@
+{
+    "rooms": [
+      {
+        "id": 1,
+        "name": "Entrance Hall",
+        "description": "You stand in the entrance hall of the Egyptian Pyramid.",
+        "items": ["torch"]
+      },
+      {
+        "id": 2,
+        "name": "Skarbiec",
+        "description": "Znalazłeś pokój ze skarbami!",
+        "items": ["treasure"]
+      },
+      {
+        "id": 3,
+        "name": "Sekretna Komnata Faraona",
+        "description": "Odkryłeś sekretną komnatę!",
+        "items": ["magic_amulet"]
+      }
+    ],
+    "items": {
+      "torch": {
+        "name": "Torch",
+        "description": "Zapalona pochodnia, która może oświetlić ciemne obszary.",
+        "score": 5,
+        "effect": {
+          "type": "time_bonus",
+          "value": 30
+        }
+      },
+      "treasure": {
+        "name": "Treasure",
+        "description": "Cenny skarb!",
+        "score": 50
+      },
+      "magic_amulet": {
+        "name": "Magiczny Amulet",
+        "description": "Mistyczny amulet z nieznanych mocy.",
+        "score": 25,
+        "effect": {
+          "type": "score_bonus",
+          "value": 10
+        }
+      }
+    }
+  }
+  
